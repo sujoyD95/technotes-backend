@@ -1,0 +1,50 @@
+20230723	16:21:58	fc8dd9b3-7312-4d64-b7c7-9fc76ee5b0e2	TypeError 	 Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle 	 GET 	 /users 	 undefined
+20230723	16:23:38	1219c5de-dea5-4900-8613-e23e881ccfe9	Error 	 data and salt arguments required 	 POST 	 /users 	 undefined
+20230723	16:25:19	4c2f70ef-7598-4922-b40e-bdc7edb9855d	ValidationError 	 User validation failed: roles: Cast to string failed for value "[ 'Employee' ]" (type Array) at path "roles" 	 POST 	 /users 	 undefined
+20230723	16:25:53	3aa6e7a4-33f7-436c-8396-52fa55dd1656	ValidationError 	 User validation failed: roles: Cast to string failed for value "[ 'Employee' ]" (type Array) at path "roles" 	 POST 	 /users 	 undefined
+20230723	16:29:06	e6a32873-f61e-4658-8e4d-515b477806dc	ValidationError 	 User validation failed: roles: Cast to string failed for value "[ 'Employee' ]" (type Array) at path "roles" 	 POST 	 /users 	 undefined
+20230723	16:36:24	fafddb04-afab-471e-9154-c5cff05194d3	Error 	 Cannot set headers after they are sent to the client 	 POST 	 /users 	 undefined
+20230723	16:37:13	6df26225-5b4d-4e2e-997c-6547f25e3d3c	Error 	 Cannot set headers after they are sent to the client 	 POST 	 /users 	 undefined
+20230723	16:37:22	4e464d24-ad07-4570-83d3-2d889d28ac57	ValidationError 	 User validation failed: roles.0: `Empl` is not a valid enum value for path `roles.0`. 	 POST 	 /users 	 undefined
+20230723	16:37:35	3dc5c940-1eb7-422d-ac42-642ea9f34416	ValidationError 	 User validation failed: roles.0: `Empl` is not a valid enum value for path `roles.0`. 	 POST 	 /users 	 undefined
+20230723	16:37:54	f597fdcd-0cfb-4469-9ba3-0f1456654418	Error 	 Cannot set headers after they are sent to the client 	 POST 	 /users 	 undefined
+20230723	16:38:15	45d6e89f-93c1-4715-a35b-3254a5f1d309	Error 	 Cannot set headers after they are sent to the client 	 POST 	 /users 	 undefined
+20230723	16:39:04	6fda7bc3-4964-4463-ab34-18ac40b4ae06	Error 	 Cannot set headers after they are sent to the client 	 POST 	 /users 	 undefined
+20230723	16:44:05	65386655-68ce-4f91-a988-ed1a589c4dba	TypeError 	 user.findOne is not a function 	 PATCH 	 /users 	 undefined
+20230809	18:33:21	391f9d37-d681-420b-b122-d2a4340e633c	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:35:20	b6cbb423-f64e-4529-9d6b-bdebbadf2d8b	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:40:52	7dae8b2f-a9eb-45bc-aecf-6f8e5d047d8d	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:44:18	b6f547c3-e364-4a3b-9250-dac433749bd0	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:44:22	668dc0c9-14a1-4924-b0ad-c0010c5985df	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:45:03	41a9b6df-3050-4be4-b82a-f7e5fa2d2af0	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:45:10	82f0be2a-d548-48f9-905d-4e4d4afdba55	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	18:45:14	214be129-9a25-49f6-8661-0a084c79b7a3	Error 	 not allowed by cors 	 GET 	 /users 	 http://localhost:5173
+20230809	21:21:58	76e194cc-3ac5-41e4-8562-1897cc3c050a	PoolClearedOnNetworkError 	 Connection to ac-udlmcbt-shard-00-02.l3uuoin.mongodb.net:27017 interrupted due to server monitor timeout 	 GET 	 /users 	 undefined
+20230810	22:42:42	eec7a87d-218c-4ed7-b8ed-03790fef1543	ValidationError 	 User validation failed: roles.1: `Manager` is not a valid enum value for path `roles.1`. 	 PATCH 	 /users 	 http://localhost:5173
+20230810	22:55:45	cdd91bac-c952-4997-93d3-cbaf95cfc7eb	ValidationError 	 User validation failed: roles.1: `Manager` is not a valid enum value for path `roles.1`. 	 POST 	 /users 	 http://localhost:5173
+20230812	20:46:10	dda95885-7ada-4f6f-866a-290bbf8855da	TypeError 	 Cannot read property 'roles' of undefined 	 GET 	 /notes 	 http://localhost:5173
+20230812	20:46:10	b79dc1b8-1a28-4344-aaf2-f7df20c28a6e	TypeError 	 Cannot read property 'roles' of undefined 	 GET 	 /users 	 http://localhost:5173
+20230812	20:46:14	31aa917a-cb04-4b02-8882-3fd941d3ef33	TypeError 	 Cannot read property 'roles' of undefined 	 GET 	 /users 	 http://localhost:5173
+20230812	21:29:22	e4700e34-7f0a-4929-824b-ae28c7ff5212	ReferenceError 	 provess is not defined 	 GET 	 /auth/refresh 	 http://localhost:5173
+20230812	21:29:22	20a1c441-97a3-4ec8-be4f-750d3e6a15af	ReferenceError 	 provess is not defined 	 GET 	 /auth/refresh 	 http://localhost:5173
+20230812	21:29:41	0e001836-5c63-4e4a-9f2f-148878cf3bee	ReferenceError 	 provess is not defined 	 GET 	 /auth/refresh 	 http://localhost:5173
+20230812	21:29:42	df813ab7-566e-49e7-882e-1ce5bef264c2	ReferenceError 	 provess is not defined 	 GET 	 /auth/refresh 	 http://localhost:5173
+20230812	21:29:42	7268cf5b-e9a2-42e3-876b-aa6315a2fe63	ReferenceError 	 provess is not defined 	 GET 	 /auth/refresh 	 http://localhost:5173
+20230812	21:29:45	8197e6a1-89dd-414d-b6c2-7feb8aa428f4	ReferenceError 	 provess is not defined 	 GET 	 /auth/refresh 	 http://localhost:5173
+20230812	22:04:01	61808b79-7178-4674-b446-5b91e0468712	MongoServerSelectionError 	 getaddrinfo EAI_AGAIN ac-udlmcbt-shard-00-00.l3uuoin.mongodb.net 	 GET 	 /users 	 http://localhost:5173
+20230813	17:10:49	fca43c86-eece-459f-af16-271577d28ee6	MongoServerSelectionError 	 getaddrinfo EAI_AGAIN ac-udlmcbt-shard-00-00.l3uuoin.mongodb.net 	 GET 	 /notes 	 http://localhost:5173
+20230813	17:15:09	2a86c6f9-bb57-41e9-b441-96c15963a1cb	ValidationError 	 User validation failed: roles.0: `Manager` is not a valid enum value for path `roles.0`. 	 PATCH 	 /users 	 http://localhost:5173
+20230813	17:16:15	6aefea32-8837-4da7-a51f-912163291145	ValidationError 	 User validation failed: roles.0: `Manager` is not a valid enum value for path `roles.0`. 	 PATCH 	 /users 	 http://localhost:5173
+20230813	17:33:19	09055bff-eb9c-4bb1-801f-c267c67e122e	ValidationError 	 Note validation failed: user: Cast to ObjectId failed for value "64d8bee90e0adb30d4d9c6a" (type string) at path "user" because of "BSONError" 	 POST 	 /notes 	 undefined
+20230813	17:33:34	dcb81a77-2cf0-40dd-9b75-e0baacfa1522	ValidationError 	 Note validation failed: user: Cast to ObjectId failed for value "64d8bee90e0adb30d4d9c6a" (type string) at path "user" because of "BSONError" 	 POST 	 /notes 	 undefined
+20230813	17:35:55	b69ec92c-d2e1-45ca-8e8e-002dd26b715a	ValidationError 	 Note validation failed: user: Cast to ObjectId failed for value "64d8bee90e0adb30d4d9c6a" (type string) at path "user" because of "BSONError" 	 POST 	 /notes 	 undefined
+20230813	17:36:12	8f16b05a-4d81-43d9-9384-79df66330c5b	ValidationError 	 Note validation failed: user: Cast to ObjectId failed for value "64d8bee90e0adb30d4d9c6a" (type string) at path "user" because of "BSONError" 	 POST 	 /notes 	 undefined
+20230813	17:38:25	c3e081d6-692b-4f7d-9ed8-43fe35d451fd	SyntaxError 	 Unexpected token } in JSON at position 91 	 POST 	 /notes 	 undefined
+20230813	17:38:31	57e6a78d-5d80-443a-bda6-25c3f1939ae9	ValidationError 	 Note validation failed: user: Cast to ObjectId failed for value "64d8bee90e0adb30d4d9c6a" (type string) at path "user" because of "BSONError" 	 POST 	 /notes 	 undefined
+20230813	17:39:22	5e135a5a-e31e-405e-b6e6-c715c056c212	ValidationError 	 Note validation failed: user: Cast to ObjectId failed for value "64d8bee90e0adb30d4d9c6a" (type string) at path "user" because of "BSONError" 	 POST 	 /notes 	 undefined
+20230813	18:41:23	695da681-82f3-4987-9ac7-e8f3ddc64c1c	ValidationError 	 User validation failed: roles.0: `Manager` is not a valid enum value for path `roles.0`. 	 POST 	 /users 	 undefined
+20230813	18:42:06	fb418df9-17d3-4c2a-9c19-9a07b0eefa36	ValidationError 	 User validation failed: roles.0: `Manager` is not a valid enum value for path `roles.0`. 	 POST 	 /users 	 undefined
